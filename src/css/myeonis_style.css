@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+* {
+	font-family: 'Dongle', sans-serif;
+	font-size: 50px;
+}
+
+body {
+	padding-top: 90px;
+	background-color: #d8d1e9;
+	color: white;
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	font-size: 30px;
+}
+
+input::placeholder {
+	color: #d8d1e9;
+}
+
+input[type=submit], .socialBtn > button{
+	background-color: #9370DB;
+	border: none;
+	border-radius: 70px;
+	padding-left : 50px;
+	padding-right : 50px;
+	color: white;
+}
+
+input[type=submit]:hover, .socialBtn > button:hover {background-color: white; color: black;}
+
+.auth_main{ 
+	width : 100%;
+  display : block;
+  align-items : center;
+	text-align: center;
+}
+.auth_form {
+	display: inline-block;
+	border : none;
+	border-radius: 70px;
+	background-color: #d8d1e9;
+	width: 650px;
+	height: 650px;
+	align-items: center;
+	text-align: center;
+	margin: 90px 0 90px 0;
+}
+.socialBtn{
+	display:block;
+	text-align: center;
+}
+.socialBtn > button {
+	width: 200px;
+	height: 70px;
+	display: inline-block;
+	padding: 0px;
+	font-size: 35px;
+	margin: 10px;
+}
+.auth_icon {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+	padding: 5px;
+}
+.auth_input {
+	margin: 10px;
+	border: none;
+	border-radius: 70px;
+	padding: 0 40px 0 40px;
+	display: inline-block;
+}
+.auth_head {
+	margin: 0;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 100px;
+	background-color: #d8d1e9;
+	color: #9370DB;
+}
+.auth_toggle {
+	margin: 0;
+	font-size:35px;
+	background-color: #d8d1e9;
+	color:#9370DB;
+	display: inline-block;
+}
+.factory_container{
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.home_container {
+	margin-left: 25%;
+	width: 50%;
+}
+.home_factory{
+	border-radius: 60px;
+	margin-top: 3%;
+	margin-left: 20%;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  background-color: #fff;
+  z-index: 10;
+	text-align: center;
+	align-items: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.closeBtn{
+	margin-top: 4%;
+	margin-left: 81%;
+	position:absolute;
+	color: #000;
+}
+.home_factory_dimm{
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+.home_factory_textarea{
+	margin-top: 40px;
+	border-radius: 30px;
+	width: 70%;
+	display: inline-block;
+	padding: 10px;
+}
+.home_factory_submit{
+	display: inline-block;
+	width: 30%;
+}
+.home_factory_file{
+	margin-top: 7%;
+	color: black;
+	display: block;
+}
+.file_explanation{
+	display: block;
+	color: #000;
+}
+.fileview{
+	display: inline-block;
+	width: 70%;
+	height: 50%;
+	border: 3px black;
+	border-style: dotted;
+}
+.fileview > button{
+	position : absolute;
+	left : 80%;
+	background-color: white;
+	border: none;
+	width: 30px;
+	height: 26px;
+}
+.fileview > img {
+	position: relative;
+	width:auto;
+	height:100%;
+}
+.home_myeonis{
+	margin : 10px;
+	background-color: white;
+}
+.myeonis_profile{
+	padding : 10px 20px 10px 20px;
+	align-items: center;
+}
+.myeonis_name{
+	color: black;
+	margin-left: 10px;
+	vertical-align:middle;
+}
+.myeonis_userphoto{
+	width: 50px;
+	height: 50px;
+	border-radius: 70%;
+	vertical-align:middle;
+}
+.myeonis_creatorTool {
+	background-color: #d8d1e9;
+	vertical-align:middle;
+	width: 20px;
+	height: 20px;
+}
+.myeonis_creatorTool_icon{
+	color: black;
+	vertical-align:middle;
+	width: 20px;
+	height: 20px;
+}
+.myeonis_content{
+	width: 100%;
+}
+.myeonis_uploadfile{
+	width: 100%;
+}
+.myeonis_text {
+	padding: 10px 20px 10px 20px;
+	font-size: 30px;
+	color: black;
+	margin: 0;
+}
+.navigation{
+	top: 0;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #9370DB;
+	padding: 8px 12px;
+	height: 50px;
+	width: 100%;
+}
+
+.navigation > div {
+	align-items: center;
+	margin-left: 20px;
+}
+
+.navigation > ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navigation > ul > li {
+	padding: 8px 30px;
+}
+.navigation > ul > li:hover{
+	background-color: white;
+  border-radius: 20px;
+	color: black;
+}
+
+.link {
+	text-decoration: none;
+  color: var(--text-color);
+	font-size: 40px;
+}
+
+.buttonlink {
+	text-decoration: none;
+  color: var(--text-color);
+	font-size: 40px;
+	background-color: #9370DB;
+	border: none;
+}
+
+.buttonlink:hover{
+	background-color: white;
+}
+
+.nav_icon{
+	vertical-align:middle;
+	width: 30px;
+}
+
+.logout{
+	margin-top: 8%;
+	display: inline-block;
+	background-color: #9370DB;
+	border: none;
+	border-radius: 70px;
+	padding-left : 50px;
+	padding-right : 50px;
+	color: white;
+}
+
+.profile_container{
+	text-align: center;
+	align-items: center;
+}
+
+.talk_container{
+	color: white;
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	align-items: center;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;
+}
+
+.talk_header_title{
+	margin: 0;
+	color: #9370DB;
+}
+
+.talk_form{
+	margin: 0;
+}
+
+.talk_main {
+	display: inline-block;
+	background-color: #9370DB;
+	width: 70%;
+	height: 550px;
+	padding:30px;
+	font-size: 10px;
+	overflow-y: scroll;
+	border-radius: 20px;
+	-ms-overflow-style: none;
+}
+
+.talk_main::-webkit-scrollbar{
+	display: none;
+}
+
+.talk_main_me {
+	text-align: right;
+}
+.talk_main_me > p {
+	margin: 0;
+}
+
+.talk_main_other {
+	text-align: left;
+}
+.talk_main_other > p{
+	margin: 0;
+}
+.talk_main_other > img {
+	width: 35px;
+	height: 35px;
+	border-radius: 70%;
+	vertical-align:middle;
+	margin: 20px;
+}
+.talk_displayName {
+	font-size: 40px;
+}
+
+.talk_ms{
+	color: black;
+	font-size: 30px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	max-width: 350px;
+	word-break:break-all;
+	display: inline-block;
+}
+
+.talk_time{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.talk_input {
+	display: inline-block;
+	width: 70%;
+	font-size: 10px;
+}
+
+.talk_input > form > input{
+	border-radius: 30px;
+	padding: 10px;
+	height: 40px;
+}
+.talk_input > form > button {
+	background-color: #d8d1e9;
+	border: none;
+}
