@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/myeonisns/static/css/main.50d1bbd2.css",
+    "main.js": "/myeonisns/static/js/main.1e15b72b.js",
+    "static/media/abstract-user-flat-3.png": "/myeonisns/static/media/abstract-user-flat-3.5e5c8245054a82e19895.png",
+    "index.html": "/myeonisns/index.html",
+    "main.50d1bbd2.css.map": "/myeonisns/static/css/main.50d1bbd2.css.map",
+    "main.1e15b72b.js.map": "/myeonisns/static/js/main.1e15b72b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50d1bbd2.css",
+    "static/js/main.1e15b72b.js"
+  ]
+}
