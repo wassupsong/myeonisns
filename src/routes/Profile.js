@@ -20,11 +20,6 @@ const Profile = ({ userData, refreshUser }) => {
   //   });
   // };
   const navigate = useNavigate();
-  const clickLogOut = () => {
-    const auth = getAuth();
-    signOut(auth);
-    navigate("/");
-  };
   const updateProfileData = async (e) => {
     e.preventDefault();
     if (userData.displayName !== newDisplayName) {
